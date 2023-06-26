@@ -1,0 +1,150 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "none", // <== Não abrir o arquivo de boas vindas
+  "breadcrumbs.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+
+  // =================== CONFIG: editor ===================
+  
+  "editor.rulers": [120, 120], // <== Linhas guias
+  "editor.fontSize": 15, // <== Tamanho da fonte
+  "editor.tabSize": 2, // <== Tamanho da tabulação
+  "editor.lineHeight": 21, // <== Altura da linha
+  //"editor.fontFamily": "Fira Code", // <== Fonte
+  "editor.suggestSelection": "first", // <== Selecionar a primeira sugestão
+  // "editor.fontLigatures": true, // <== Fonte com ligaduras
+   "editor.acceptSuggestionOnCommitCharacter": false, // <== Não aceitar sugestão ao digitar
+   "editor.accessibilitySupport": "off", // <== Desabilitar suporte a acessibilidade
+  "workbench.editor.labelFormat": "short", // <== Formato do nome do arquivo
+  "editor.parameterHints.enabled": false, // <== Desabilitar dicas de parâmetros
+  "editor.renderLineHighlight": "gutter", // <== Destacar linha atual
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.stickyScroll.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+    // Files
+    "files.associations": {
+      ".prettierrc.json": "jsonc"
+    },
+
+  // =================== CONFIG: explorador de arquivos =======
+  "explorer.confirmDelete": false,
+
+    // Eslint
+    "eslint.validate": ["javascript", "typescriptreact", "javascriptreact", "graphql"],
+
+  //javascript
+
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  //reactjs
+
+
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+  // =================== CONFIG: typescript ===================
+  "typescript.tsserver.log": "off",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  //extensão
+
+  "extensions.autoCheckUpdates": true,
+
+  // =================== CONFIG: extensão material icon theme ===================
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
+  },
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#6272a4",
+
+  // =================== CONFIG: spell check ===================
+  "cSpell.userWords": [
+    "chakra",
+    "IUGU",
+    "middlewares",
+    "mixpanel",
+    "Onboarded",
+    "prefetch",
+    "reactjs",
+    "rocketseat",
+    "upsert"
+  ],
+  "cSpell.language": "en,pt",
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ]
+}
